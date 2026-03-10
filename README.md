@@ -187,9 +187,6 @@ Legend:
   - [👨‍💻 Contributing](#-contributing)
   - [💬 Support](#-support)
   - [🙏 Special Thanks](#-special-thanks)
-  - [🐢 Author](#-author)
-  - [🔗 Links](#-links)
-  - [Related projects](#related-projects)
   - [Disclaimer](#disclaimer)
   - [📃 License](#-license)
 
@@ -1448,7 +1445,7 @@ BlueStacks: Contained vulnerabilities that allowed remote code execution and una
 
 | Emulator                                                                  | FOSS               | License                                                       | Paid                                                                  | Active             | Recommended        | Emulated systems                                        | Platform                                                                                                              |
 | ------------------------------------------------------------------------- | ------------------ | ------------------------------------------------------------- | --------------------------------------------------------------------- | ------------------ | ------------------ | ------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| [blueMSX](http://bluemsx.msxblue.com/index.htm)                           | :heavy_check_mark: | Dual-licensed under the zlib/libpng license and the GNU GPLv2 | :x:                                                                   | :heavy_minus_sign: | :heavy_check_mark: | MSX computers, ColecoVision, SV-318/SV-328, Sega SG1000 | :computer:                                                                                                            |
+| [blueMSX](http://bluemsx.msxblue.com/index.htm)                           | :heavy_check_mark: | Dual-licensed under the `zlib`/`libpng` license and the GNU GPLv2 | :x:                                                                   | :heavy_minus_sign: | :heavy_check_mark: | MSX computers, ColecoVision, SV-318/SV-328, Sega SG1000 | :computer:                                                                                                            |
 | [BrMSX](https://www.zophar.net/msx/brmsx.html)                            | :heavy_minus_sign: | Source available                                              | :x:                                                                   | :x:                | :heavy_minus_sign: | MSX computers                                           | :computer:                                                                                                            |
 | [CJS MSX Emulator](https://www.zophar.net/msx/cjs-msx-emulator.html)      | :x:                | Proprietary                                                   | :heavy_check_mark: (mentions shareware and registering in the README) | :x:                | :x:                | MSX computers                                           | :computer:                                                                                                            |
 | [fMSX](https://fms.komkon.org/fMSX/)                                      | :heavy_minus_sign: | Source available, custom license                              | :x:                                                                   | :x:                | :heavy_check_mark: | MSX computers                                           | :computer: :apple: :penguin: :imp: :floppy_disk: Sony PlayStation Sony PlayStation Portable AmigaOS OS/2 Sharp X68000 |
