@@ -1,6 +1,10 @@
-# Awesome Emulators
+# Awesome Emulators (fork)
 
-A list of all the emulators for a particular system. Includes honorable and historical mentions as well!
+> [!WARNING]
+> This repository isnt the official awesome-emulator list, its just an updated fork made to catch up to the latest infos, emulators, etc.. (for cause that the official reposiotry hasnt been updated since September of 2025).
+> Please support the actual creator instead if you like their work by clicking the link under this repository's title (fork status)
+
+A list of all emulators for a particular system. Includes honorable and historical mentions as well!
 
 This list will always be kept as complete and up-to-date as possible, but please open an issue if you have any questions/comments/concerns.
 
@@ -341,6 +345,7 @@ Legend:
 | [psOff_public](https://github.com/SysRay/psOff_public) and a [GUI (taken down due to it going paid)](https://github.com/ChristianStrau/psOFF-GUI) | :heavy_check_mark: | GNU GPLv3                   | :x:                | :x:                | :x:                | Sony PlayStation 4                     | :computer:                   |
 | [psOff_premium](https://github.com/SysRay/psOff_compatibility)                                                                                    | :x:                | Proprietary                 | :heavy_check_mark: | :heavy_minus_sign: | :x:                | Sony PlayStation 4                     | :computer:                   |
 | [RPCSX](https://github.com/RPCSX/rpcsx)                                                                                                           | :heavy_check_mark: | GNU GPLv2                   | :x:                | :heavy_check_mark: | :heavy_check_mark: | Sony PlayStation 4, Sony PlayStation 5 | :penguin:                    |
+| [Kyty](https://github.com/InoriRus/Kyty) | :heavy_check_mark: | MIT license | :x:  | :heavy_minus_sign: | :heavy_minus_sign:                | Sony PlayStation 4, Sony PlayStation 5 | :computer: |
 | [shadPS4](https://github.com/georgemoralis/shadPS4)                                                                                               | :heavy_check_mark: | GNU GPLv2                   | :x:                | :heavy_check_mark: | :heavy_check_mark: | Sony PlayStation 4                     | :computer: :penguin:         |
 | [Spine](https://github.com/devofspine/spine)                                                                                                      | :x:                | Proprietary                 | :x:                | :x:                | :x:                | Sony PlayStation 4                     | :computer:                   |
 
@@ -348,7 +353,7 @@ Legend:
 
 | Emulator                                 | FOSS               | License     | Paid | Active             | Recommended        | Emulated systems                       | Platform   |
 | ---------------------------------------- | ------------------ | ----------- | ---- | ------------------ | ------------------ | -------------------------------------- | ---------- |
-| [Kyty](https://github.com/InoriRus/Kyty) | :heavy_check_mark: | MIT license | :x:  | :heavy_minus_sign: | :x:                | Sony PlayStation 5                     | :computer: |
+| [Kyty](https://github.com/InoriRus/Kyty) | :heavy_check_mark: | MIT license | :x:  | :heavy_minus_sign: | :x:                | Sony PlayStation 4, Sony PlayStation 5 | :computer: |
 | [RPCSX](https://github.com/RPCSX/rpcsx)  | :heavy_check_mark: | GNU GPLv2   | :x:  | :heavy_check_mark: | :heavy_minus_sign: | Sony PlayStation 4, Sony PlayStation 5 | :penguin:  |
 
 ### Nintendo
@@ -1080,7 +1085,7 @@ See multi-emulators section for "Emma 02 emulator"
 | Emulator                                                      | FOSS               | License          | Paid | Active             | Recommended        | Emulated systems      | Platform                             |
 | ------------------------------------------------------------- | ------------------ | ---------------- | ---- | ------------------ | ------------------ | --------------------- | ------------------------------------ |
 | [Vita3K](https://vita3k.org/)                                 | :heavy_check_mark: | GNU GPLv2        | :x:  | :heavy_check_mark: | :heavy_check_mark: | Sony PlayStation Vita | :computer: :apple: :penguin: :robot: |
-| [Vita3K-Android](https://github.com/ikhoeyZX/Vita3K-Android/) | :heavy_check_mark: | GNU GPLv2        | :x:  | :heavy_check_mark: | :heavy_check_mark: | Sony PlayStation Vita | :robot:                              |
+| [Vita3K-Android (ZX fork)](https://github.com/ikhoeyZX/Vita3K-Android/) | :heavy_check_mark: | GNU GPLv2        | :x:  | :heavy_check_mark: | :heavy_check_mark: | Sony PlayStation Vita | :robot:                              |
 | [vitaemu](https://github.com/soywiz-archive/vitaemu)          | :heavy_minus_sign: | Source available | :x:  | :x:                | :x:                | Sony PlayStation Vita | :robot:                              |
 
 ### Bandai WonderSwan/WonderSwan Color/SwanCrystal/WonderWitch
