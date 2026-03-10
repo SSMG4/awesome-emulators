@@ -8,7 +8,7 @@ A list of all emulators for a particular system. Includes honorable and historic
 
 This list will always be kept as complete and up-to-date as possible, but please open an issue if you have any questions/comments/concerns.
 
-**_Official websites and links to the authors will always be used if possible, otherwise mirrors may be used if they are available._**
+**_Official sites and links to the authors will always be used if possible, otherwise mirrors may be used if they are available._**
 
 **_Quick note: the recommended column is purely subjective and I only use it as a means of answering the question "should/could/would you use it?" or "is there a viable use case or reason for this emulator to be used instead of another?" Please ask yourself what you are using the emulator for and then make an educated decision based on your own research and needs._**
 
@@ -39,7 +39,7 @@ Legend:
 
 ## Table of Contents
 
-- [Awesome Emulators](#awesome-emulators)
+- [Awesome Emulators](#awesome-emulators-fork)
   - [Source Availability](#source-availability)
   - [Platform Support](#platform-support)
   - [Table of Contents](#table-of-contents)
@@ -177,9 +177,10 @@ Legend:
     - [Multi-system emulators](#multi-system-emulators)
   - [Emulation platforms](#emulation-platforms)
     - [Emulation operating systems for computers](#emulation-operating-systems-for-computers)
-    - [Emulation operating systems for single board computers](#emulation-operating-systems-for-single-board-computers)
-    - [Emulation frontends and launchers for Windows/Linux](#emulation-frontends-and-launchers-for-windowslinux)
-    - [Emulation frontends for Android](#emulation-frontends-for-android)
+    - [Emulation operating systems for single board computers](#emulation-operating-systems-for-single-board-computers-sbcs)
+    - [Emulation frontends and launchers for desktop](#emulation-frontends-and-launchers-for-desktop)
+    - [Emulation frontends for mobile](#emulation-frontends-for-mobile)
+    - [Game client frontends for mobile](#game-client-frontends-for-mobile)
     - [Emulation scripts for setting up multiple emulators](#emulation-scripts-for-setting-up-multiple-emulators)
     - [Emulation services](#emulation-services)
     - [Game collection managers](#game-collection-managers)
@@ -442,7 +443,7 @@ Legend:
 | [gopher64](https://github.com/gopher64/gopher64)                                                                                                                                | :heavy_check_mark: | GNU GPLv3                                                                                         | :x:                | :heavy_check_mark: | :heavy_check_mark: | Nintendo 64      | :computer: :penguin:                                        |
 | [Jario64](https://www.zophar.net/java/n64/jario64.html)                                                                                                                         | :heavy_check_mark: | GNU GPLv3                                                                                         | :x:                | :x:                | :x:                | Nintendo 64      | :computer: :globe_with_meridians:                           |
 | [Kaizen (previously Gadolinium)](https://github.com/SimoneN64/Kaizen)                                                                                                           | :heavy_check_mark: | 3-clause BSD license                                                                              | :x:                | :heavy_check_mark: | :heavy_check_mark: | Nintendo 64      | :computer: :penguin:                                        |
-| [Larper64 (website is down and the developer was anonymous, so only a backup Google Drive link exists)](https://drive.google.com/file/d/1IWyw5UG9Uf24KG0zrcXSFoOmcQoHWmyc/view) | :x:                | Proprietary                                                                                       | :x:                | :x:                | :x:                | Nintendo 64      | :computer:                                                  |
+| [Larper64 (site is down and the developer is anonymous, so only a Google Drive backup exists)](https://drive.google.com/file/d/1IWyw5UG9Uf24KG0zrcXSFoOmcQoHWmyc/view) | :x:                | Proprietary                                                                                       | :x:                | :x:                | :x:                | Nintendo 64      | :computer:                                                  |
 | [Luna's Project64](https://github.com/Luna-Project64/Luna-Project64)                                                                                                            | :heavy_check_mark: | GNU GPLv2                                                                                         | :x:                | :heavy_check_mark: | :heavy_minus_sign: | Nintendo 64      | :computer:                                                  |
 | [MiB64](https://github.com/MiB64/MiB64)                                                                                                                                         | :heavy_check_mark: | GNU GPLv2                                                                                         | :x:                | :heavy_check_mark: | :heavy_minus_sign: | Nintendo 64      | :computer:                                                  |
 | [Monkey64](https://github.com/TheMrIron2/Monkey64)                                                                                                                              | :heavy_minus_sign: | Source available                                                                                  | :x:                | :x:                | :heavy_minus_sign: | Nintendo 64      | Sony PlayStation Portable                                   |
@@ -456,8 +457,8 @@ Legend:
 | [N64VM](https://www.zophar.net/n64/n64-vm.html)                                                                                                                                 | :x:                | Proprietary                                                                                       | :x:                | :x:                | :x:                | Nintendo 64      | :computer:                                                  |
 | [n64-emu](https://github.com/kmc-jp/n64-emu)                                                                                                                                    | :heavy_minus_sign: | Source available                                                                                  | :x:                | :x:                | :x:                | Nintendo 64      | :computer: :apple: :penguin:                                |
 | [n64.js](http://hulkholden.github.io/n64js/)                                                                                                                                    | :heavy_check_mark: | MIT license                                                                                       | :x:                | :heavy_check_mark: | :heavy_check_mark: | Nintendo 64      | :globe_with_meridians:                                      |
-| [Nemu](https://www.zophar.net/n64/Nemu64.html)                                                                                                                                  | :x:                | Proprietary                                                                                       | :x:                | :heavy_check_mark: | :heavy_check_mark: | Nintendo 64      | :computer:                                                  |
-| [Nemu64](#)                                                                                                                                                                     | :heavy_minus_sign: | Source may be made available                                                                      | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_minus_sign: | Nintendo 64      | :computer:                                                  |
+| [Nemu](https://www.zophar.net/n64/Nemu64.html)                          | :x: | Proprietary        | :x:                | :x: | :x: | Nintendo 64      | :computer:    |
+| [Nemu64](https://www.zophar.net/n64/Nemu64.html)                        | :x: | Proprietary                    | :x: | :x: | :x: | Nintendo 64      | :computer:                                                  |
 | [NICE64](https://www.zophar.net/n64/nice64.html)                                                                                                                                | :heavy_check_mark: | GNU GPLv2                                                                                         | :x:                | :x:                | :x:                | Nintendo 64      | :computer:                                                  |
 | [NIN64](https://www.zophar.net/n64/nin64.html)                                                                                                                                  | :x:                | Proprietary                                                                                       | :x:                | :x:                | :x:                | Nintendo 64      | :computer:                                                  |
 | [NINCEST 64](https://www.zophar.net/n64/nincest-64.html)                                                                                                                        | :heavy_minus_sign: | Source available                                                                                  | :x:                | :x:                | :x:                | Nintendo 64      | :computer:                                                  |
@@ -544,14 +545,14 @@ Legend:
 | [Pine](https://github.com/Ishan09811/pine)                        | :heavy_check_mark: | MPLv2       | :x:  | :heavy_check_mark: | :heavy_minus_sign: | Nintendo Switch  | :robot:                              |
 | [Pomelo](https://pomelo-emu.github.io/)                           | :heavy_check_mark: | GNU GPLv3   | :x:  | :heavy_check_mark: | :heavy_minus_sign: | Nintendo Switch  | :iphone:                             |
 | [Ryujinx (Ryubing fork)](https://git.ryujinx.app/ryubing/ryujinx) | :heavy_check_mark: | MIT license | :x:  | :heavy_check_mark: | :heavy_minus_sign: | Nintendo Switch  | :computer: :apple: :penguin:         |
-| [Ryujinx-mirror](https://git.ryujinx.app/archive/ryujinx-mirror)  | :heavy_check_mark: | MIT license | :x:  | :heavy_check_mark: | :heavy_minus_sign: | Nintendo Switch  | :computer: :apple: :penguin: :robot: |
-| [Ryujinx](#)                                                      | :heavy_check_mark: | MIT license | :x:  | :x:                | :x:                | Nintendo Switch  | :computer: :apple: :penguin: :robot: |
+| [Ryujinx-mirror](https://git.ryujinx.app/archive/ryujinx-mirror)  | :heavy_check_mark: | MIT license | :x:  | :x:                | :x:                | Nintendo Switch  | :computer: :apple: :penguin: :robot: |
+| [Ryujinx (dead)](https://git.ryujinx.app/archive/ryujinx-mirror)  | :heavy_check_mark: | MIT license | :x:  | :x:                | :x:                | Nintendo Switch  | :computer: :apple: :penguin: :robot: |
 | [Skyline](https://skyline-emu.one/)                               | :heavy_check_mark: | MPLv2       | :x:  | :x:                | :heavy_minus_sign: | Nintendo Switch  | :robot:                              |
 | [Strato](https://github.com/strato-emu/strato)                    | :heavy_check_mark: | GNU GPLv3   | :x:  | :heavy_minus_sign: | :heavy_minus_sign: | Nintendo Switch  | :robot:                              |
 | [Sudachi](https://sudachi.emuplace.app/)                          | :heavy_check_mark: | GNU GPLv3   | :x:  | :x:                | :heavy_minus_sign: | Nintendo Switch  | :computer: :robot:                   |
-| [Suyu](https://suyu.dev/)                                         | :heavy_check_mark: | GNU GPLv3   | :x:  | :x:                | :x:                | Nintendo Switch  | :computer: :penguin:                 |
-| [Uzuy](https://uzuy-edge.org/)                                    | :heavy_check_mark: | GNU GPLv3   | :x:  | :x:                | :x:                | Nintendo Switch  | :computer: :penguin:                 |
-| [Yuzu](#)                                                         | :heavy_check_mark: | GNU GPLv3   | :x:  | :x:                | :heavy_minus_sign: | Nintendo Switch  | :computer: :penguin: :robot:         |
+| [Suyu (dead)](https://github.com/Hengle/suyu-emu)                 | :heavy_check_mark: | GNU GPLv3   | :x:  | :x:                | :x:                | Nintendo Switch  | :computer: :penguin:                 |
+| [Uzuy (dead, no forks)](https://uzuy-edge.org/)                   | :heavy_minus_sign: | GNU GPLv3   | :x:  | :x:                | :x:                | Nintendo Switch  | :computer: :penguin:                 |
+| [Yuzu (dead)](https://github.com/yuzu-emu-mirror/yuzu)            | :heavy_check_mark: | GNU GPLv3   | :x:  | :x:                | :x:                | Nintendo Switch  | :computer: :penguin: :robot:         |
 
 > [!CAUTION]
 > Since RyuJinx and Yuzu have been shut down, any data collection, telemetry, and analytics from official versions (and probably forks too just in case) should be shut off as a precaution, otherwise the data could be sent to Nintendo or other 3rd parties and the data could be collected, stored, or used for any purpose without user consent.
@@ -664,6 +665,7 @@ Legend:
 | [Dxbx](http://sourceforge.net/projects/dxbx)                                                                | :heavy_check_mark: | GNU GPLv2            | :x:  | :x:                | :x:                | Microsoft Xbox   | :computer:                   |
 | [OpenXBOX](https://github.com/mborgerson/OpenXBOX/tree/master)                                              | :heavy_minus_sign: | Source available     | :x:  | :x:                | :x:                | Microsoft Xbox   | :computer: :penguin:         |
 | [StrikeBox](https://github.com/StrikerX3/StrikeBox)                                                         | :heavy_check_mark: | 2-clause BSD license | :x:  | :x:                | :x:                | Microsoft Xbox   | :computer: :penguin:         |
+| [X1 Box](https://github.com/izzy2lost/xemu)                                                                     | :heavy_minus_sign: | Custom            | Google Play Store version is paid | :heavy_check_mark:              | :heavy_check_mark: | Microsoft Xbox   | :robot: |
 | [XQEMU](https://github.com/xqemu/xqemu)                                                                     | :heavy_check_mark: | GNU GPLv2            | :x:  | :x:                | :heavy_minus_sign: | Microsoft Xbox   | :computer: :apple: :penguin: |
 | [Xemu](https://xemu.app/)                                                                                   | :heavy_check_mark: | GNU GPLv2            | :x:  | :heavy_check_mark: | :heavy_check_mark: | Microsoft Xbox   | :computer: :apple: :penguin: |
 | [Xeon](https://www.emulator-zone.com/doc.php/xbox/xeon.html)                                                | :x:                | Proprietary          | :x:  | :x:                | :x:                | Microsoft Xbox   | :computer:                   |
@@ -679,12 +681,12 @@ Legend:
 
 #### Microsoft Xbox One
 
-| Emulator                                                       | FOSS               | License            | Paid               | Active             | Recommended        | Emulated systems   | Platform   |
-| -------------------------------------------------------------- | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ | ---------- |
-| [Spasha](#)                                                    | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_minus_sign: | Microsoft Xbox One | :computer: |
-| [WinDurango](https://github.com/WinDurango-project/WinDurango) | :heavy_check_mark: | GNU GPLv3          | :x:                | :heavy_check_mark: | :heavy_minus_sign: | Microsoft Xbox One | :computer: |
-| [WinEra](#)                                                    | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_minus_sign: | Microsoft Xbox One | :computer: |
-| [XWine1](#)                                                    | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_minus_sign: | Microsoft Xbox One | :computer: |
+| Emulator                                                       | FOSS               | License            | Paid               | Active             | Recommended        | Emulated systems   | Platform             |
+| -------------------------------------------------------------- | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ | -------------------- |
+| [Spasha (Placeholder)](https://placeholder.com)                | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_minus_sign: | Microsoft Xbox One | :computer:           |
+| [WinDurango](https://github.com/WinDurango-project/WinDurango) | :heavy_check_mark: | GNU GPLv3          | :x:                | :heavy_check_mark: | :heavy_minus_sign: | Microsoft Xbox One | :computer:           |
+| [WinEra (Placeholder)](https://placeholder.com)                | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_minus_sign: | Microsoft Xbox One | :computer:           |
+| [XWine1](https://github.com/xwine1)                            | :heavy_check_mark: | MIT license        | :x:                | :heavy_minus_sign: | :heavy_minus_sign: | Microsoft Xbox One | :computer: :penguin: |
 
 #### Microsoft Xbox Series
 
@@ -992,7 +994,7 @@ See multi-emulators section for "Emma 02 emulator"
 | [DraStic](https://play.google.com/store/apps/details?id=com.dsemu.drastic)                     | :x:                | Proprietary      | :x:  | :heavy_check_mark: | :heavy_check_mark: | Nintendo DS      | :robot:                                                                                   |
 | [DS Player](https://ds.44670.org/)                                                             | :heavy_check_mark: | GNU GPLv3        | :x:  | :heavy_minus_sign: | :heavy_minus_sign: | Nintendo DS      | :globe_with_meridians:                                                                    |
 | [DSemu](http://double.nz/nintendo_ds/)                                                         | :heavy_check_mark: | MIT license      | :x:  | :x:                | :x:                | Nintendo DS      | :computer:                                                                                |
-| DSemu-ng (no known links to downloads or websites)                                             | :heavy_check_mark: | MIT license      | :x:  | :x:                | :x:                | Nintendo DS      | :computer:                                                                                |
+| DSemu-ng (no known links or sites to downloads)                                             | :heavy_check_mark: | MIT license      | :x:  | :x:                | :x:                | Nintendo DS      | :computer:                                                                                |
 | [DSonPSP](https://sourceforge.net/projects/donpsp/)                                            | :heavy_check_mark: | GNU GPLv2        | :x:  | :x:                | :heavy_minus_sign: | Nintendo DS      | Sony PlayStation Portable                                                                 |
 | [DSonPSP-mod](https://github.com/PSP-Archive/DSonPSP-mod)                                      | :heavy_check_mark: | GNU GPLv2        | :x:  | :x:                | :heavy_minus_sign: | Nintendo DS      | Sony PlayStation Portable                                                                 |
 | [DSVita](https://github.com/Grarak/DSVita/)                                                    | :heavy_check_mark: | GNU GPLv3        | :x:  | :heavy_check_mark: | :heavy_check_mark: | Nintendo DS      | Sony PlayStation Vita                                                                     |
@@ -1118,7 +1120,7 @@ See multi-emulators section for "Emma 02 emulator"
 | Emulator                                                         | FOSS               | License                                                                                                                          | Paid | Active             | Recommended        | Emulated systems   | Platform                                                                   |
 | ---------------------------------------------------------------- | ------------------ | -------------------------------------------------------------------------------------------------------------------------------- | ---- | ------------------ | ------------------ | ------------------ | -------------------------------------------------------------------------- |
 | [Potator (legacy)](https://www.zophar.net/wsvision/potator.html) | :heavy_minus_sign: | Source available                                                                                                                 | :x:  | :x:                | :heavy_minus_sign: | Watara SuperVision | :computer: :penguin: GP32 OpenDingux                                       |
-| [Potator (SDL2 fork)](https://github.com/infval/potator)         | :heavy_minus_sign: | The original license was only source available, so this should technically be the same, but the license in the repo is Unlicense | :x:  | :heavy_minus_sign: | :heavy_check_mark: | Watara SuperVision | :computer: :penguin: Nintendo DS OpenDingux GP32 Sony PlayStation Portable |
+| [Potator (SDL2 fork)](https://github.com/infval/potator)         | :heavy_minus_sign: | The original license was only source available, so this should technically be the same, but the license in the repository is Unlicense | :x:  | :heavy_minus_sign: | :heavy_check_mark: | Watara SuperVision | :computer: :penguin: Nintendo DS OpenDingux GP32 Sony PlayStation Portable |
 | [Wataroo](http://tailchao.com/Wataroo/index.php)                 | :x:                | Proprietary                                                                                                                      | :x:  | :heavy_minus_sign: | :heavy_check_mark: | Watara SuperVision | :computer:                                                                 |
 
 ## Phones/PDAs/other mobile devices, etc
@@ -1301,7 +1303,7 @@ BlueStacks: Contained vulnerabilities that allowed remote code execution and una
 | [KEGS32](https://www.zophar.net/apple2/kegs32.html)                                                          | :heavy_check_mark: | GNU GPLv3                                                     | :x:                                                     | :x:                | :heavy_minus_sign: | Apple computers              | :computer: :apple: :penguin:                            |
 | [LisaEm](http://lisa.sunder.net/)                                                                            | :heavy_check_mark: | GNU GPLv2                                                     | :x:                                                     | :x:                | :heavy_check_mark: | Apple computers              | :computer: :apple: :penguin:                            |
 | [LisaEm (fork with some small additions)](https://github.com/arcanebyte/lisaem)                              | :heavy_check_mark: | GNU GPLv2                                                     | :x:                                                     | :heavy_check_mark: | :heavy_check_mark: | Apple computers              | :computer: :apple: :penguin:                            |
-| [macintosh.js](https://github.com/felixrieseberg/macintosh.js)                                               | :heavy_minus_sign: | Source available, repo says "for educational use"             | :x:                                                     | :heavy_minus_sign: | :heavy_minus_sign: | Apple computers              | :globe_with_meridians:                                  |
+| [macintosh.js](https://github.com/felixrieseberg/macintosh.js)                                               | :heavy_minus_sign: | Source available, repository says "for educational use"             | :x:                                                     | :heavy_minus_sign: | :heavy_minus_sign: | Apple computers              | :globe_with_meridians:                                  |
 | [microm8](https://paleotronic.com/software/microm8/) and a [GUI](https://github.com/paleotronic/microm8-gui) | :x:                | Proprietary (GUI is source available)                         | :x:                                                     | :heavy_minus_sign: | :heavy_minus_sign: | Apple computers              | :computer: :apple: :penguin:                            |
 | [Mini vMac](https://www.gryphel.com/c/minivmac/index.html)                                                   | :heavy_check_mark: | GNU GPLv2                                                     | :x:                                                     | :heavy_check_mark: | :heavy_check_mark: | Apple computers              | :computer: :apple: :penguin:                            |
 | [PCE/macplus](http://www.hampa.ch/pce/pce-macplus.html)                                                      | :heavy_check_mark: | GNU GPLv2                                                     | :x:                                                     | :x:                | :heavy_minus_sign: | Apple computers              | :computer:                                              |
@@ -1418,10 +1420,10 @@ BlueStacks: Contained vulnerabilities that allowed remote code execution and una
 | Emulator                                                                                                               | FOSS               | License                                                                                   | Paid | Active             | Recommended        | Emulated systems   | Platform                           |
 | ---------------------------------------------------------------------------------------------------------------------- | ------------------ | ----------------------------------------------------------------------------------------- | ---- | ------------------ | ------------------ | ------------------ | ---------------------------------- |
 | [ePC8801MA Kai SE](http://nenecchi.kirara.st/)                                                                         | :x:                | Proprietary (source code is in a password-protected 7z file and I haven't cracked it yet) | :x:  | :heavy_minus_sign: | :x:                | NEC 8800 computers | :computer:                         |
-| [Excite88 (website is down)](http://www.emu-france.com/emulateurs/10-ordinateurs/153-nec-pc-8801/7425-excite88/)       | :heavy_minus_sign: | Proprietary                                                                               | :x:  | :x:                | :heavy_minus_sign: | NEC 8800 computers | :computer:                         |
+| [Excite88 (site is down)](http://www.emu-france.com/emulateurs/10-ordinateurs/153-nec-pc-8801/7425-excite88/)       | :heavy_minus_sign: | Proprietary                                                                               | :x:  | :x:                | :heavy_minus_sign: | NEC 8800 computers | :computer:                         |
 | [M88](http://retropc.net/cisc/m88/)                                                                                    | :x:                | Proprietary                                                                               | :x:  | :x:                | :x:                | NEC 8800 computers | :computer:                         |
 | [M88 for OS/2](https://web.archive.org/web/20190210175903/www.geocities.co.jp/SiliconValley-SanJose/2457/m88/m88.html) | :x:                | Proprietary                                                                               | :x:  | :x:                | :x:                | NEC 8800 computers | OS/2                               |
-| [P88SR (website is down)](http://www1.plala.or.jp/aoto/pc88emu.htm)                                                    | :heavy_minus_sign: | :heavy_minus_sign:                                                                        | :x:  | :heavy_minus_sign: | :heavy_minus_sign: | NEC 8800 computers | :question:                         |
+| [P88SR (site is down)](http://www1.plala.or.jp/aoto/pc88emu.htm)                                                    | :heavy_minus_sign: | :heavy_minus_sign:                                                                        | :x:  | :heavy_minus_sign: | :heavy_minus_sign: | NEC 8800 computers | :question:                         |
 | [pc8801ma](http://nenecchi.kirara.st/)                                                                                 | :heavy_minus_sign: | :heavy_minus_sign:                                                                        | :x:  | :heavy_minus_sign: | :heavy_minus_sign: | NEC 8800 computers | :computer:                         |
 | [PC88EM](http://www.hi-ho.ne.jp/hideaki-i/n_on_mac/n-index.html)                                                       | :x:                | Proprietary                                                                               | :x:  | :heavy_minus_sign: | :heavy_minus_sign: | NEC 8800 computers | :apple:                            |
 | [PC88WIN](http://web.archive.org/web/20070930154607/home.highway.ne.jp/soltin/pc88win.html)                            | :heavy_minus_sign: | :heavy_minus_sign:                                                                        | :x:  | :heavy_minus_sign: | :heavy_minus_sign: | NEC 8800 computers | :computer:                         |
@@ -1659,7 +1661,7 @@ BlueStacks: Contained vulnerabilities that allowed remote code execution and una
 | Emulator                                                                                          | FOSS               | License                                                            | Paid | Active             | Recommended        | Emulated systems           | Platform                                                                                                                             |
 | ------------------------------------------------------------------------------------------------- | ------------------ | ------------------------------------------------------------------ | ---- | ------------------ | ------------------ | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
 | [EasyRPG](https://easyrpg.org/)                                                                   | :heavy_check_mark: | GNU GPLv3                                                          | :x:  | :heavy_check_mark: | :heavy_check_mark: | RPG Maker                  | :computer: :apple: :penguin: :robot: :iphone: :globe_with_meridians: Nintendo Wii Nintendo 3DS Nintendo Switch Sony PlayStation Vita |
-| [JoiPlay](https://joiplay.net/)                                                                   | :heavy_minus_sign: | No central repo, seems to just be a combination of other projects? | :x:  | :heavy_check_mark: | :heavy_check_mark: | RPG Maker, Ren'Py, HTML5   | :robot: :globe_with_meridians:                                                                                                       |
+| [JoiPlay](https://joiplay.net/)                                                                   | :heavy_minus_sign: | No central repository, seems to just be a combination of other projects? | :x:  | :heavy_check_mark: | :heavy_check_mark: | RPG Maker, Ren'Py, HTML5   | :robot: :globe_with_meridians:                                                                                                       |
 | [MKXP](https://github.com/Ancurio/mkxp)                                                           | :heavy_check_mark: | GNU GPLv2                                                          | :x:  | :heavy_check_mark: | :heavy_check_mark: | Ruby Game Scripting System | :computer: :apple: :penguin:                                                                                                         |
 | [OpenGMK](https://github.com/OpenGMK/OpenGMK)                                                     | :heavy_check_mark: | GNU GPLv2                                                          | :x:  | :heavy_check_mark: | :heavy_check_mark: | Game Maker                 | :computer: :penguin:                                                                                                                 |
 | [NScripter](https://nscripter.com/)                                                               | :x:                | Proprietary                                                        | :x:  | :heavy_minus_sign: | :x:                | NScripter                  | :computer:                                                                                                                           |
@@ -1694,7 +1696,7 @@ _Disclaimer: These tools are listed for preservation of games that are either no
 | Emulator                                                                                     | FOSS               | License                            | Paid | Active             | Recommended        | Emulated systems                                            | Platform                                                                                                                                             |
 | -------------------------------------------------------------------------------------------- | ------------------ | ---------------------------------- | ---- | ------------------ | ------------------ | ----------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [Final Burn](https://www.zophar.net/fba/final-burn.html)                                     | :heavy_check_mark: | Custom license                     | :x:  | :x:                | :x:                | Multiple arcade systems                                     | :computer: :apple: :penguin: :robot:                                                                                                                 |
-| [Final Burn Alpha (AKA FB Alpha or FBA)](#)                                                  | :heavy_check_mark: | Custom license                     | :x:  | :x:                | :x:                | Multiple arcade systems                                     | :computer: :apple: :penguin: :robot: Raspberry Pi Nintendo Switch                                                                                    |
+| [Final Burn Alpha (AKA FB Alpha or FBA)](https://github.com/libretro/fbalpha)                                                  | :heavy_minus_sign: | Custom license                     | :x:  | :x:                | :x:                | Multiple arcade systems                                     | :computer: :apple: :penguin: :robot: Raspberry Pi Nintendo Switch                                                                                    |
 | [Final Burn Alpha Rerecording](https://www.zophar.net/fba/final-burn-alpha-rerecording.html) | :heavy_check_mark: | Custom license                     | :x:  | :x:                | :x:                | Multiple arcade systems                                     | :computer: :apple: :penguin:                                                                                                                         |
 | [Final Burn Alpha Neo](https://github.com/finalburnneo/FBNeo/)                               | :heavy_check_mark: | Custom license                     | :x:  | :heavy_check_mark: | :heavy_check_mark: | Multiple arcade systems                                     | :computer: :apple: :penguin: Raspberry Pi Nintendo Switch                                                                                            |
 | [GnGeo](https://github.com/pepone42/gngeo)                                                   | :heavy_check_mark: | GNU GPLv2 with an exception        | :x:  | :x:                | :heavy_minus_sign: | Neo Geo AES                                                 | :apple: :penguin: GCW                                                                                                                                |
@@ -1895,7 +1897,7 @@ For support, open an issue.
 
 - Zophar's domain - for hosting backup downloads for many emulators, plugins, and other tools and software
 - Emulator Zone - for hosting backup downloads for many emulators, plugins, and other tools and software
-- The Emulation64 website - for keeping their sites up for so long!
+- The Emulation64 site - for keeping their sites up for so long!
 - EmuTalk forums - for many great resources
 - AssemblerGames archive - for many great resources
 - GBATemp - for many great resources
@@ -1904,29 +1906,10 @@ For support, open an issue.
 - All the incredible, hard working, and talented developers who work on all these emulators for free and in their spare time, thank you!
 - You for reading this! 😄
 
-## 🐢 Author
+## 🐢 Authors
 
 [@DerekTurtleRoe](https://www.github.com/DerekTurtleRoe)
-
-## 🔗 Links
-
-🗣 If you'd like to follow [my social media](https://bio.link/derekturtleroe).
-
-💲 Support me financially:
-
-- [PayPal](https://paypal.me/vgturtle127)
-- [Venmo](https://venmo.com/vgturtle127)
-- [Cash App](https://cash.app/$DerekTurtleRoe)
-- [Throne wishlist](https://throne.me/u/derekturtleroe)
-- [Ko-Fi](https://ko-fi.com/derekturtleroe)
-
-## Related projects
-
-Here are some related projects I work on:
-
-- [Awesome Preservation (will be released soon)](https://github.com/derekturtleroe)
-- [N64DB (released in the future)](https://github.com/derekturtleroe)
-- [N64-PD-ROMs (a collection of homebrew and freely available ROMs for N64)](https://github.com/derekturtleroe/n64-pd-roms)
+[@SSMG4](https://www.github.com/SSMG4)
 
 ## Disclaimer
 
@@ -1936,4 +1919,4 @@ All copyrights and trademarks are owned by their respective rights holders. I do
 
 ## 📃 License
 
-This work is licensed under Attribution-NonCommercial-ShareAlike 4.0 International. To view a copy of this license, visit [the Creative Commons website](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+This work is licensed under Attribution-NonCommercial-ShareAlike 4.0 International. To view a copy of this license, visit [the Creative Commons site](https://creativecommons.org/licenses/by-nc-sa/4.0/).
